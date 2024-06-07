@@ -18,9 +18,9 @@ public class BookService {
 
     @PostConstruct
     public void init() {
-        bookRepo.put(1, new Book(1, "The Great Gatsby", "F. Scott Fitzgerald", 180, "/src/images/book1.jpg", "Classics", false));
+        bookRepo.put(1, new Book(1, "The Great Gatsby", "F. Scott Fitzgerald", 180, "/src/images/book1.jpg", "Classics", true));
         bookRepo.put(2, new Book(2, "Pride and Prejudice", "Jane Austen", 320, "/src/images/book2.jpg", "Classics", true));
-        bookRepo.put(3, new Book(3, "Crime and Punishment", "Fyodor Mihaylovic Dostoyevski", 687, "/src/images/book3.jpg", "Classics", true));
+        bookRepo.put(3, new Book(3, "Crime and Punishment", "Fyodor  Dostoyevsky", 687, "/src/images/book3.jpg", "Classics", true));
         bookRepo.put(4, new Book(4, "To Kill a Mockingbird", "Harper Lee", 360, "/src/images/book4.jpg", "Classics", true));
         bookRepo.put(5, new Book(5, "The Catcher in the Rye", "J. D. Salinger", 234, "/src/images/book5.jpg", "Classics", true));
         bookRepo.put(6, new Book(6, "1984", "George Orwell", 352, "/src/images/book6.jpg", "Classics", true));
